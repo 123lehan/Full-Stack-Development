@@ -1,0 +1,106 @@
+.post-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-header {
+  background-color: #ddd;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.toggle-row {
+  margin: 1rem 0;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.hint-text {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.hint-text .highlight {
+  color: red;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.post-button {
+  padding: 0.7rem 1.5rem;
+  background-color: #aaa;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.post-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.toggle-label {
+  font-weight: 600;
+  color: #444;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.hint-text {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  background-color: #fff3cd;
+  padding: 1rem;
+  border-left: 4px solid #ffc107;
+  border-radius: 6px;
+}
