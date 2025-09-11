@@ -1,0 +1,66 @@
+.login-container {
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 2em;
+  background-color: #eef6fb;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+  text-align: center;
+  color: #0074d9;
+  margin-bottom: 1.5em;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.8em;
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-error {
+  color: crimson;
+  text-align: center;
+  margin-top: 1em;
+}
+.signup-redirect {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.signup-button {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px 18px;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+.signup-button:hover {
+  background-color: #1c5980;
+}
+.signout-button {
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
